@@ -1,0 +1,115 @@
+2023-02-06 13:59:09.462  INFO 19924 --- [restartedMain] com.student.StudentApplication           : Starting StudentApplication using Java 17.0.5 on LTIN288487 with PID 19924 (C:\Users\2139086\OneDrive - Cognizant\Spring boot application\Requestmapping spring boot learn\student\student\target\classes started by 2139086 in C:\Users\2139086\OneDrive - Cognizant\Spring boot application\Requestmapping spring boot learn\student\student)
+2023-02-06 13:59:09.463  INFO 19924 --- [restartedMain] com.student.StudentApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 13:59:09.827  INFO 19924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 13:59:09.829  INFO 19924 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 13:59:09.830  INFO 19924 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 13:59:09.866  INFO 19924 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 13:59:09.866  INFO 19924 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 398 ms
+2023-02-06 13:59:09.983  INFO 19924 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 13:59:09.999  INFO 19924 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-06 13:59:10.003  INFO 19924 --- [restartedMain] com.student.StudentApplication           : Started StudentApplication in 0.616 seconds (JVM running for 116.417)
+2023-02-06 13:59:10.006  INFO 19924 --- [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2023-02-06 13:59:24.683  INFO 16076 --- [restartedMain] com.student.StudentApplication           : Starting StudentApplication using Java 17.0.5 on LTIN288487 with PID 16076 (C:\Users\2139086\OneDrive - Cognizant\Spring boot application\Requestmapping spring boot learn\student\student\target\classes started by 2139086 in C:\Users\2139086\OneDrive - Cognizant\Spring boot application\Requestmapping spring boot learn\student\student)
+2023-02-06 13:59:24.686  INFO 16076 --- [restartedMain] com.student.StudentApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 13:59:24.775  INFO 16076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-06 13:59:24.776  INFO 16076 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-06 13:59:26.239  INFO 16076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 13:59:26.254  INFO 16076 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 13:59:26.255  INFO 16076 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 13:59:26.341  INFO 16076 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 13:59:26.342  INFO 16076 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1565 ms
+2023-02-06 13:59:26.888  INFO 16076 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 13:59:26.939  INFO 16076 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-06 13:59:26.953  INFO 16076 --- [restartedMain] com.student.StudentApplication           : Started StudentApplication in 2.822 seconds (JVM running for 3.451)
+2023-02-06 13:59:43.708  INFO 16076 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 13:59:43.709  INFO 16076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 13:59:43.710  INFO 16076 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-06 13:59:43.784  INFO 16076 --- [http-nio-8080-exec-1] com.student.filter.LoggingFilter         : filter logs : METHOD = POST;REQUESTURI = /call; REQUEST BODY ={
+    "note": {
+        "heading": "Reminder",
+        "from": "Jani",
+        "to": "Tove",
+        "body": "Don't forget me this weekend!"
+    }
+}; RESPONSE CODE= 200;STARTTIME =1675672183724;TIMETAKEN = 60; RESPONSE BODY =<note><heading>Reminder</heading><from>Jani</from><to>Tove</to><body>Don&apos;t forget me this weekend!</body></note>
+2023-02-06 14:02:14.886  INFO 20908 --- [restartedMain] com.student.StudentApplication           : Starting StudentApplication using Java 17.0.5 on LTIN288487 with PID 20908 (C:\Users\2139086\OneDrive - Cognizant\Spring boot application\Requestmapping spring boot learn\student\student\target\classes started by 2139086 in C:\Users\2139086\OneDrive - Cognizant\Spring boot application\Requestmapping spring boot learn\student\student)
+2023-02-06 14:02:14.888  INFO 20908 --- [restartedMain] com.student.StudentApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 14:02:14.956  INFO 20908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-06 14:02:14.956  INFO 20908 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-06 14:02:16.217  INFO 20908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 14:02:16.234  INFO 20908 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 14:02:16.234  INFO 20908 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 14:02:16.323  INFO 20908 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 14:02:16.323  INFO 20908 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1366 ms
+2023-02-06 14:02:16.792  INFO 20908 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 14:02:16.840  INFO 20908 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-06 14:02:16.854  INFO 20908 --- [restartedMain] com.student.StudentApplication           : Started StudentApplication in 2.481 seconds (JVM running for 3.091)
+2023-02-06 14:02:46.664  INFO 20908 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 14:02:46.664  INFO 20908 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 14:02:46.666  INFO 20908 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-06 14:02:46.749  INFO 20908 --- [http-nio-8080-exec-2] com.student.filter.LoggingFilter         : filter logs : METHOD = POST;REQUESTURI = /call; REQUEST BODY ={
+    "note": {
+        "heading": "Reminder",
+        "from": "Jani",
+        "to": "Tove",
+        "body": "Don't forget me this weekend!"
+    }
+}; RESPONSE CODE= 200;STARTTIME =1675672366685;TIMETAKEN = 63; RESPONSE BODY ={
+    "note": {
+        "heading": "Reminder",
+        "from": "Jani",
+        "to": "Tove",
+        "body": "Don't forget me this weekend!"
+    }
+}
+2023-02-06 14:03:02.918  INFO 20908 --- [http-nio-8080-exec-3] com.student.filter.LoggingFilter         : filter logs : METHOD = POST;REQUESTURI = /call; REQUEST BODY ={
+    "note": {
+        "heading": "Reminder",
+        "from": "Jani",
+        "to": "Tove",
+        "body": "Don't forget me this weekend!"
+    }
+}; RESPONSE CODE= 200;STARTTIME =1675672382916;TIMETAKEN = 2; RESPONSE BODY ={
+    "note": {
+        "heading": "Reminder",
+        "from": "Jani",
+        "to": "Tove",
+        "body": "Don't forget me this weekend!"
+    }
+}
+2023-02-06 14:30:32.281  INFO 17900 --- [restartedMain] com.student.StudentApplication           : Starting StudentApplication using Java 17.0.5 on LTIN288487 with PID 17900 (C:\Users\2139086\OneDrive - Cognizant\Spring boot application\Requestmapping spring boot learn\student\student\target\classes started by 2139086 in C:\Users\2139086\OneDrive - Cognizant\Spring boot application\Requestmapping spring boot learn\student\student)
+2023-02-06 14:30:32.284  INFO 17900 --- [restartedMain] com.student.StudentApplication           : No active profile set, falling back to 1 default profile: "default"
+2023-02-06 14:30:32.365  INFO 17900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2023-02-06 14:30:32.366  INFO 17900 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2023-02-06 14:30:33.832  INFO 17900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-02-06 14:30:33.849  INFO 17900 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-02-06 14:30:33.850  INFO 17900 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.71]
+2023-02-06 14:30:33.937  INFO 17900 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-02-06 14:30:33.938  INFO 17900 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1571 ms
+2023-02-06 14:30:34.447  INFO 17900 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2023-02-06 14:30:34.504  INFO 17900 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-02-06 14:30:34.520  INFO 17900 --- [restartedMain] com.student.StudentApplication           : Started StudentApplication in 2.804 seconds (JVM running for 3.361)
+2023-02-06 14:31:52.340  INFO 17900 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-06 14:31:52.341  INFO 17900 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-02-06 14:31:52.342  INFO 17900 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-02-06 14:31:52.437  INFO 17900 --- [http-nio-8080-exec-2] com.student.filter.LoggingFilter         : filter logs : METHOD = POST;REQUESTURI = /call; REQUEST BODY ={
+    "note": {
+        "heading": "Reminder",
+        "from": "ravi",
+        "to": "raja",
+        "body": "Don't forget me this weekend!"
+    }
+}; RESPONSE CODE= 200;STARTTIME =1675674112361;TIMETAKEN = 76; RESPONSE BODY =<note><heading>Reminder</heading><from>ravi</from><to>raja</to><body>Don&apos;t forget me this weekend!</body></note>
+2023-02-06 14:32:51.929  INFO 17900 --- [http-nio-8080-exec-3] com.student.filter.LoggingFilter         : filter logs : METHOD = POST;REQUESTURI = /call; REQUEST BODY =<note>
+    <heading>Reminder</heading>
+    <from>ravi</from>
+    <to>raja</to>
+    <body>Don&apos;t forget me this weekend!</body>
+</note>; RESPONSE CODE= 200;STARTTIME =1675674171926;TIMETAKEN = 3; RESPONSE BODY ={"note":{"heading":"Reminder","from":"ravi","to":"raja","body":"Don't forget me this weekend!"}}
+2023-02-06 14:34:19.845  INFO 17900 --- [http-nio-8080-exec-6] com.student.filter.LoggingFilter         : filter logs : METHOD = POST;REQUESTURI = /call; REQUEST BODY ={  
+    "employee": {  
+        "name":       "sonoo",   
+        "salary":      56000,   
+        "married":    true  
+    }  
+}  ; RESPONSE CODE= 200;STARTTIME =1675674259843;TIMETAKEN = 2; RESPONSE BODY =<employee><name>sonoo</name><salary>56000</salary><married>true</married></employee>
